@@ -122,22 +122,34 @@ header .h-footer {
 /* h-footer end */
 
 /* lunch start */
+
 .cal {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
-.cal-top {
-    margin: 20px;
+/* .cal-top {
+    
+} */
+.cal-top > h2 {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+.cal-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .cal-group {
     display: grid;
     grid-template-columns: repeat(7, 1fr); 
 }
 .cal-group > div {
-    width: 100px;
-    height: 50px;
+    width: 140px;
+    height: 80px;
     border: 2px solid #eaeaea;
     border-radius: 5px;
 }
