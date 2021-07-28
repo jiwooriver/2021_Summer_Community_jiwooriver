@@ -1,126 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    color: black;
-}
-
-/* flex */
-
-/* 가운데 정렬 */
-.flex-center{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* 세로 정렬(around)*/
-
-.flex-column-around {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-/* 세로 정령(center) */
-
-.flex-column-center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-/* body start */
-
-body {
-    display: flex;
-}
-
-/* body end */
-
-/* section start */
-
-section {
-    width: 80vw;
-    height: 100vh;
-    background-color: #F5F5F5;
-}
-
-/* section end */
-
-/* header start */
-
-header {
-    width: 20vw;
-    height: 100vh;
-}
-
-/* phoName start*/
-
-header .phoName {
-    width: 18vmin;
-    margin: 0 auto;
-}
-
-header .profile {
-    width: 100%;
-    height: 18vmin;
-    border-radius: 50%;
-}
-
-header img {
-    width: 100%;
-    height: 100%;
-}
-
-header .userPri {
-    width: 19vmin;
-    height: 7vmin;
-    margin: 0 auto;
-}
-
-header .userPri b {
-    font-size: 1vmax;
-    line-height: 1.5rem;
-    font-weight: bold;
-}
-
-/* phoName end */
-
-/* nav start */
-
-header nav {
-    width: 18vmin;
-}
-
-header nav ul {
-    width: 100%;
-    margin-top: 6vmin;
-}
-
-header nav ul li {
-    width: 100%;
-    margin-bottom: 1.5vmax;
-}
-
-header nav li b {
-    font-size: 1vmax;
-}
-
-/* nav end */
-
-/* h-footer start */
-
-header .h-footer {
-    width: 34vmin;
-    font-size: 0.9vmax;
-}
-
-/* h-footer end */
-
 /* calendar start */
 
 .cal {
@@ -145,7 +22,7 @@ header .h-footer {
 }
 .cal-group {
     display: grid;
-    grid-template-columns: repeat(7, 1fr); 
+    grid-template-columns: repeat(7, 1fr);
 }
 .cal-group > div {
     width: 140px;
@@ -155,6 +32,7 @@ header .h-footer {
 }
 .cal-day {
     text-align: center;
+    width: 20px;
 }
 
 /* calendar end */

@@ -1,0 +1,37 @@
+/* 
+1. font 폴더 다운받기
+2. css폴더에 해당"font.css" 다운받기 
+3. header.css에 *부분에 1줄추가하기 
+   -font-family: "noto";-
+4. 사용html파일 상단 header.css 윗줄에 font.css추가하기
+*/
+@font-face {
+    font-weight: 100;
+    src :url("../font/NotoSansKR-Thin.otf");
+    font-family: "noto";
+}
+@font-face {
+    font-weight: 200;
+    src :url("../font/NotoSansKR-Light.otf");
+    font-family: "noto";
+}
+@font-face {
+    font-weight: 300;
+    src :url("../font/NotoSansKR-Regular.otf");
+    font-family: "noto";
+}
+@font-face {
+    font-weight: 400;
+    src :url("../font/NotoSansKR-Medium.otf");
+    font-family: "noto";
+}
+@font-face {
+    font-weight: 500;
+    src :url("../font/NotoSansKR-Bold.otf");
+    font-family: "noto";
+}
+@font-face {
+    font-weight: 600;
+    src :url("../font/NotoSansKR-Black.otf");
+    font-family: "noto";
+}
