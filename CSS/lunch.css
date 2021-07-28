@@ -38,12 +38,15 @@
 }
 .cal-group > div {
     width: 140px;
-    height: 80px;
     border: 2px solid #eaeaea;
     border-radius: 5px;
 }
 .cal-day {
     text-align: center;
+    height: 40px;
+}
+.cal-date {
+    height: 80px;
 }
 
 /* lunch end */
