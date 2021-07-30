@@ -44,6 +44,7 @@
 .cal-day {
     text-align: center;
     width: 20px;
+    background-color: #f0f0f0;
 }
 .cal-date {
     height: 80px;
